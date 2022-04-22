@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Satisfy&family=Yanone+Kaffeesatz&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.nav-title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 35px;
+    color: #212529;
+    transition: 1.2s;
+}
+
+span {
+    font-weight: 900;
+    font-size: 1.25em;
+}
+
+.nav-title:hover {
+    color: rgb(255, 255, 255);
+    /* margin-left: 50px; */
+    /* background: url('photos/stamplogo.png');
+    background-size: contain; */
+}
+
+.byspan {
+    font-weight: 300;
+    font-size: 2rem;
+    transition: 1.2s;
+}
+
+.byspan:hover {
+    color: #0088a9;
+}
+
+li, a, button {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212529;
+    text-decoration: none;
+}
+
+button {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+.stamp-byline {
+    display: block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: #212529;
+}
+
+.byline {
+    padding: 0px;
+    margin: 10px 20px;
+}
+
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+.main-image:hover {
+    border: 1px;
+    color: #0088a9;
+}
+
+.main-footer {
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    justify-content: space-around;
+}
+
+.main-footer li a {
+    transition: all 0.3s ease 0s;
+}
+
+.main-footer li a:hover {
+    color: #0088a9;
+    }
+
+.footer-nav li {
+    display: inline-block;
+}
+
+.footer-nav li a {
+    padding: 25px 25px;
+    font-size: 1em;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.footer-byline {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+.social li a {
+    transition: all 0.3s ease 0s;
+}
+
+.social li a:hover {
+    color: #0088a9;
+    }
+
+.footer-image {
+        max-width: 30%;
+    }
+
+
+
